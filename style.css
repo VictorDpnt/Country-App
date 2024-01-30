@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#inputRange {
+  margin: auto 10px;
+  width: 200px;
+  cursor: pointer;
+}
+#inputSearch {
+  text-align: center;
+  height: 25px;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.range-container {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin: auto 10px;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  scale: 1.1;
+}
+
+#countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card {
+  flex: 1 0 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  min-width: 260px;
+  margin: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+img {
+  height: 100px;
+  width: 160px;
+  object-fit: cover;
+}
