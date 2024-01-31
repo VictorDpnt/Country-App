@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  background: rgb(240, 240, 240);
 }
 
 .filter-container {
@@ -27,6 +28,8 @@ body {
   height: 25px;
   width: 90%;
   border-radius: 20px;
+  background: none;
+  font-weight: bold;
 }
 
 .range-container {
